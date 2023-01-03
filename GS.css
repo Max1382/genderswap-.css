@@ -1,0 +1,339 @@
+body {
+     font-family: Arial, Helvetica, sans-serif;
+}
+ .navbar {
+     overflow: hidden;
+     background-color: #333;
+}
+ .navbar a {
+     float: left;
+     font-size: 16px;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+ .dropdown {
+     float: left;
+     overflow: hidden;
+}
+ .dropdown .dropbtn {
+     font-size: 16px;
+     border: none;
+     outline: none;
+     color: white;
+     padding: 14px 16px;
+     background-color: inherit;
+     font-family: inherit;
+     margin: 0;
+}
+ .navbar a:hover, .dropdown:hover .dropbtn {
+     background-color: red;
+}
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+}
+ .dropdown-content a {
+     float: none;
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+}
+ .dropdown-content a:hover {
+     background-color: #ddd;
+}
+ .dropdown:hover .dropdown-content {
+     display: block;
+}
+ img {
+     position: absolute;
+     transform: translate(-50%, -20%);
+}
+ #google_translate_element {
+     width: fit-content;
+}
+ #configuration {
+     display: flex;
+     flex-direction: row;
+     gap: 30px;
+     justify-content: center;
+     margin-bottom: 10px;
+}
+ #google_translate_element {
+     width: fit-content;
+}
+ h1 {
+    Text-Align: Center;
+}
+ h2 {
+    Text-Align: Center;
+}
+ h3 {
+    Text-Align: Center;
+}
+ h4 {
+    Text-Align: Center;
+}
+ h5 {
+    Text-Align: Center;
+}
+ h6 {
+    Text-Align: Center;
+}
+ h8 {
+    Text-Align: Center;
+}
+ td {
+    Text-Align: Center;
+}
+ div {
+    Text-Align: Center;
+}
+ h2 {
+    Text-Align: Center;
+}
+ th {
+    Text-Align: Center;
+}
+ p {
+    Text-Align: Center;
+}
+ a {
+    Text-Align: Center;
+}
+ .text-all{
+     color:white;
+}
+ .desktop-display{
+     display: block;
+}
+ .mobile-display{
+     display: none;
+}
+ .flex-container {
+     display: flex;
+}
+ .flex-child {
+     flex: 1;
+     border: 1px solid white 
+}
+ .flex-child:first-child {
+     margin-right: 20px;
+}
+ img{
+     float:left;
+}
+ .product-card {
+     background-color: #000000;
+     border-radius: 30px;
+     padding: 2em;
+     text-align: center;
+     margin: 15px;
+}
+ .top-card{
+     display: inline-flex;
+}
+ .product-title {
+     font-size: 20px;
+     font-weight: bold;
+}
+/* CSS */
+ .button-33 {
+     appearance: none;
+     background-color: #2ea44f;
+     border: 1px solid rgba(27, 31, 35, .15);
+     border-radius: 9px;
+     box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+     box-sizing: border-box;
+     color: #fff;
+     cursor: pointer;
+     display: inline-block;
+     font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 20px;
+     padding: 2px 16px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     vertical-align: middle;
+     white-space: nowrap;
+     float:center;
+}
+ .button-3 {
+     appearance: none;
+     background-color: #2ea44f;
+     border: 1px solid rgba(27, 31, 35, .15);
+     border-radius: 9px;
+     box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+     box-sizing: border-box;
+     color: #fff;
+     cursor: pointer;
+     display: inline-block;
+     font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 20px;
+     padding: 2px 16px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     vertical-align: middle;
+     white-space: nowrap;
+     float:right;
+}
+ .button-3:focus:not(:focus-visible):not(.focus-visible) {
+     box-shadow: none;
+     outline: none;
+}
+ .button-3:hover {
+     background-color: #2c974b;
+}
+ .button-3:focus {
+     box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+     outline: none;
+}
+ .button-3:disabled {
+     background-color: #94d3a2;
+     border-color: rgba(27, 31, 35, .1);
+     color: rgba(255, 255, 255, .8);
+     cursor: default;
+}
+ .button-3:active {
+     background-color: #298e46;
+     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+ .modal {
+     display: none;
+    /* Hidden by default */
+     position: fixed;
+    /* Stay in place */
+     z-index: 1;
+    /* Sit on top */
+     padding-top: 100px;
+    /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%;
+    /* Full width */
+     height: 100%;
+    /* Full height */
+     overflow: auto;
+    /* Enable scroll if needed */
+     background-color: rgb(0,0,0);
+    /* Fallback color */
+     background-color: rgba(0,0,0,0.4);
+    /* Black w/ opacity */
+}
+/* Modal Content */
+ .modal-content {
+     background-color: #000000;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #ffffff;
+     width: 80%;
+     border-radius: 40px;
+}
+/* The Close Button */
+ .close2 {
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+ .close2:hover, .close2:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+}
+/* The Modal (background) */
+ .modal {
+     display: none;
+    /* Hidden by default */
+     position: fixed;
+    /* Stay in place */
+     z-index: 1;
+    /* Sit on top */
+     padding-top: 100px;
+    /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%;
+    /* Full width */
+     height: 100%;
+    /* Full height */
+     overflow: auto;
+    /* Enable scroll if needed */
+     background-color: rgb(0,0,0);
+    /* Fallback color */
+     background-color: rgba(0,0,0,0.4);
+    /* Black w/ opacity */
+}
+/* Modal Content */
+ .modal-content {
+     background-color: #000;
+     margin: auto;
+     padding: 10px;
+     border: 1px solid #888;
+     width: 80%;
+}
+/* The Close Button */
+ .close {
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+ .close:hover, .close:focus {
+     color: #fff;
+     text-decoration: none;
+     cursor: pointer;
+}
+    
+.mobile-view {
+  display: block;
+}
+
+@media screen and (max-width:580px){
+.collapsible {     
+background-color: red;   
+color: white;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: Center;
+outline: none;
+font-size: 15px;
+}
+.desktop-display{
+display: none;
+}
+
+.mobile-display{
+display: block;
+}
+
+
+
+
+.view-more-content {
+  display: none; /* Hide the additional content by default */
+}
+
+.view-more-link {
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the link */
+}
